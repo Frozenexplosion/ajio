@@ -1,0 +1,26 @@
+def LinearSearch(array, n, k):
+
+    for j in range(0, n):
+
+        if (array[j] == k):
+
+            return j
+
+    return -1
+
+ 
+array = [10, 30, 50, 70, 90]
+
+k = 30
+
+n = len(array)
+
+result = LinearSearch(array, n, k)
+
+if(result == -1):
+
+    print("Element not found")
+
+else:
+
+    print("Element found at index: ", result)
