@@ -9,7 +9,7 @@ def LinearSearch(array, n, k):
     return -1
 
  
-array = [10, 30, 50, 70]
+array = [10, 30, 50, 70, 90]
 
 k = 30
 
